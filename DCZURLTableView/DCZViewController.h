@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DCZViewController : UIViewController
+@interface DCZViewController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+    NSArray *pageNames;
+    NSArray *URLs;
+}
 
+@property (nonatomic, retain) UITableView *tblView;
+@property (nonatomic, retain) NSString *pageURL;
 
 @end
 
