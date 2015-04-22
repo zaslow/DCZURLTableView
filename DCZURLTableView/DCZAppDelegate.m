@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Dean Zaslow. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "DCZAppDelegate.h"
 
-@interface AppDelegate ()
+@interface DCZAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation DCZAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

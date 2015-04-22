@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		282C66FE1AE782FE00968D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C66FD1AE782FE00968D1C /* main.m */; };
-		282C67011AE782FE00968D1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C67001AE782FE00968D1C /* AppDelegate.m */; };
-		282C67041AE782FE00968D1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C67031AE782FE00968D1C /* ViewController.m */; };
+		282C67011AE782FE00968D1C /* DCZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C67001AE782FE00968D1C /* DCZAppDelegate.m */; };
+		282C67041AE782FE00968D1C /* DCZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282C67031AE782FE00968D1C /* DCZViewController.m */; };
 		282C67071AE782FE00968D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282C67051AE782FE00968D1C /* Main.storyboard */; };
 		282C67091AE782FE00968D1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282C67081AE782FE00968D1C /* Images.xcassets */; };
 		282C670C1AE782FE00968D1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282C670A1AE782FE00968D1C /* LaunchScreen.xib */; };
@@ -30,10 +30,10 @@
 		282C66F81AE782FE00968D1C /* DCZURLTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCZURLTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		282C66FC1AE782FE00968D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282C66FD1AE782FE00968D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		282C66FF1AE782FE00968D1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		282C67001AE782FE00968D1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		282C67021AE782FE00968D1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		282C67031AE782FE00968D1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282C66FF1AE782FE00968D1C /* DCZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCZAppDelegate.h; sourceTree = "<group>"; };
+		282C67001AE782FE00968D1C /* DCZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCZAppDelegate.m; sourceTree = "<group>"; };
+		282C67021AE782FE00968D1C /* DCZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCZViewController.h; sourceTree = "<group>"; };
+		282C67031AE782FE00968D1C /* DCZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCZViewController.m; sourceTree = "<group>"; };
 		282C67061AE782FE00968D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		282C67081AE782FE00968D1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		282C670B1AE782FE00968D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -81,10 +81,10 @@
 		282C66FA1AE782FE00968D1C /* DCZURLTableView */ = {
 			isa = PBXGroup;
 			children = (
-				282C66FF1AE782FE00968D1C /* AppDelegate.h */,
-				282C67001AE782FE00968D1C /* AppDelegate.m */,
-				282C67021AE782FE00968D1C /* ViewController.h */,
-				282C67031AE782FE00968D1C /* ViewController.m */,
+				282C66FF1AE782FE00968D1C /* DCZAppDelegate.h */,
+				282C67001AE782FE00968D1C /* DCZAppDelegate.m */,
+				282C67021AE782FE00968D1C /* DCZViewController.h */,
+				282C67031AE782FE00968D1C /* DCZViewController.m */,
 				282C67051AE782FE00968D1C /* Main.storyboard */,
 				282C67081AE782FE00968D1C /* Images.xcassets */,
 				282C670A1AE782FE00968D1C /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282C67041AE782FE00968D1C /* ViewController.m in Sources */,
-				282C67011AE782FE00968D1C /* AppDelegate.m in Sources */,
+				282C67041AE782FE00968D1C /* DCZViewController.m in Sources */,
+				282C67011AE782FE00968D1C /* DCZAppDelegate.m in Sources */,
 				282C66FE1AE782FE00968D1C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
